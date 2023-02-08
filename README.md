@@ -1,2 +1,10 @@
 # quick-add-outlook
-A Powershell script to quickly add a full-day event to your calendar by either writing 1d, 2d etc. or the date in the format DD/MM/YYYY
+# A Powershell script to quickly add a full-day event (private or not private) to your Outlook calendar by either: 
+# writing how many days from now to add the event by writing 1d, 2d etc. 
+# writing the date in the format DD/MM/YYYY
+
+
+# if the event falls on a weekend, the user is asked if the event should be moved to the following Monday
+
+#If the PC is protected from running Powershell script, you can run this trusted script by the command: 
+powershell.exe -noprofile -executionpolicy bypass -file .\calendar.ps1
