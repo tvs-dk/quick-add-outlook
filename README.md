@@ -6,5 +6,11 @@
 
 # if the event falls on a weekend, the user is asked if the event should be moved to the following Monday
 
-#If the PC is protected from running Powershell script, you can run this trusted script by the command: 
-powershell.exe -noprofile -executionpolicy bypass -file .\calendar.ps1
+# If the PC is protected from running Powershell script, you can deactivate that by running the command
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
+
+# Or write the following command. Followed by "Bypass"
+Set-ExecutionPolicy -Scope CurrentUser
+
+# or run only this trusted script by the command:
+# powershell.exe -noprofile -executionpolicy bypass -file .\calendar.ps1
