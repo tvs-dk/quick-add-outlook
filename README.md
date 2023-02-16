@@ -35,7 +35,7 @@ and save this script in your user folder as a .ps1
 ```
 C:\Users\your-user-name>
 ```
-and load the script as a module in your Powershell profile
+and load the script as a module in your Powershell profile. See how to do that here: [Setting-up-the-Powershell-profile](https://github.com/tvs-dk/Notes-for-Powershell/wiki/Setting-up-the-Powershell-profile)
 ```
 Import-Module .\calendar.ps1
 ```
