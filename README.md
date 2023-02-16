@@ -21,3 +21,25 @@ Set-ExecutionPolicy -Scope CurrentUser
 ```
 powershell.exe -noprofile -executionpolicy bypass -file .\calendar.ps1
 ```
+
+### Protip:
+Put the script into a function
+
+```
+function Get-Cal {
+#put script here script
+}
+```
+
+and save this script in your user folder as a .ps1
+```
+C:\Users\your-user-name>
+```
+and load the script as a module in your Powershell profile
+```
+Import-Module .\calendar.ps1
+```
+Then you can always load the script in a new Powershell window with the command:
+```
+Get-Cal
+```
