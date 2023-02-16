@@ -23,7 +23,7 @@ powershell.exe -noprofile -executionpolicy bypass -file .\calendar.ps1
 ```
 
 ### Protip:
-Put the script into a function
+Put the script into a function. The name of the function in this example is "Get-Cal"
 
 ```
 function Get-Cal {
