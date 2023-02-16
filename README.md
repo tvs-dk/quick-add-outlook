@@ -4,9 +4,9 @@
  writing the date in the format DD/MM/YYYY
 
 
-if the event falls on a weekend, the user is asked if the event should be moved to the following Monday
+* if the event falls on a weekend, the user is asked if the event should be moved to the following Monday
 
-If the PC is protected from running Powershell script, you can deactivate that by running the command
+* If the PC is protected from running Powershell script, you can deactivate that by running the command
 ```
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
 ```
