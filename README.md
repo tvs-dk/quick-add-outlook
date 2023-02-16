@@ -3,7 +3,9 @@
  writing how many days from now to add the event by writing 1d, 2d etc. 
  writing the date in the format DD/MM/YYYY
 
+[link to script](https://github.com/tvs-dk/quick-add-outlook/blob/main/calendar.ps1)
 
+### Further features:
 * if the event falls on a weekend, the user is asked if the event should be moved to the following Monday
 
 * If the PC is protected from running Powershell script, you can deactivate that by running the command
